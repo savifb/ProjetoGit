@@ -1,0 +1,19 @@
+{
+  "background_color": "#73bbc9",
+  "description": "Aplicativo Abrigo Flora e Fauna",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Abrigo Flora e Fauna",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Abrigo Flora",
+  "start_url": "https://savifb.github.io/ProjetoGit/",
+  "theme_color": "#ec9191",
+  "categories": [
+    "social"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [],
+  "lang": "pt"
+}
