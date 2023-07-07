@@ -19,15 +19,27 @@ header{
 .content-bt{
     display: flex;
 	justify-content: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
     flex-wrap: wrap;
     margin-bottom: 1rem;
 }
 .btn-danger{
     margin-right: 1rem;
     box-shadow: 2px 2px  rgba(0, 0, 0, 0.325);
-    
+        
 }
+.btn btn-danger{
+    background-color: white;
+}
+
+.form-control{
+    margin: auto;
+    margin-top: 3rem;
+}
+.Categorias{
+    margin: 3rem;
+}
+
 /*CAIXAS DOS PETS*/
 .content-box{
     display: flex;
@@ -39,7 +51,7 @@ header{
 .box-pet{
     width: 150px;
     height: 150px;
-    background-color: brown;
+    background-color: black;
     margin: 20px;
     border-radius: 20%;
     box-shadow: 3px 3px rgba(55, 51, 51, 0.47);
