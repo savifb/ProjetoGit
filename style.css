@@ -1,13 +1,34 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #EC9191;
+    background-color: #ffffff;
 }
 h1{
     color: white;
     text-align: center;
     margin: auto;
 }
-header img{
-    
+header{
+    background-color: aqua;
+    height: 125px;
+    border-radius: 7%;
+    margin: 5% 2% 5% 2%;
+}
+.conteiner-bt{
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.btn-filtro{
+    margin: 5%;
+    background-color: #F97272;
+    padding: 2%;
+    border-radius: 10%;
+}
+.btn-filtro:hover{
+    background-color: blue;
 }
