@@ -1,34 +1,30 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+
 }
-h1{
-    color: white;
-    text-align: center;
-    margin: auto;
+p, h1,h2,h3,h4,h5,h6{
+    margin: 1rem;
 }
 header{
     background-color: aqua;
-    height: 125px;
+    width: 100%;
+    height: 10rem;
     border-radius: 7%;
-    margin: 5% 2% 5% 2%;
-}
-.conteiner-bt{
-    box-sizing: border-box;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   
+    margin-bottom: 1rem;
+    
 }
 
-.btn-filtro{
-    margin: 5%;
-    background-color: #F97272;
-    padding: 2%;
-    border-radius: 10%;
+/*BOTÕES DE FILTRO*/
+.content-bt{
+    display: flex;
+	justify-content: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
-.btn-filtro:hover{
-    background-color: blue;
+.btn-danger{
+    margin-right: 1rem;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.325);
+    
 }
