@@ -6,6 +6,11 @@ body{
 p, h1,h2,h3,h4,h5,h6{
     margin: 1rem;
 }
+nav select{
+    border: none;
+    width: 20%;
+    margin: 1%;
+}
 header{
     background-color: aqua;
     width: 100%;
@@ -14,6 +19,7 @@ header{
     margin-bottom: 1rem;
     
 }
+
 
 /*BOTÕES DE FILTRO*/
 .content-bt{
@@ -45,14 +51,14 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .box-pet{
     width: 150px;
     height: 150px;
     background-color: black;
-    margin: 20px;
+    margin: 1%;
     border-radius: 20%;
     box-shadow: 3px 3px rgba(55, 51, 51, 0.47);
 
