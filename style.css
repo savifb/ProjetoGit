@@ -23,7 +23,7 @@ header{
 }
 .caroucel-item{
     width: 100%;
-    height: 10rem;
+    height: 100%;
     border-radius: 7%;
     margin-bottom: 1rem;
 }
@@ -68,16 +68,16 @@ header{
 }
 
 .box-pet{
-    width: 150px;
-    height: 150px;
-    background-color: black;
+    width: 40%;
+    height: 10rem;
+    
     margin: 1%;
     border-radius: 20%;
     box-shadow: 1px 3px rgb(157, 157, 157);
 }
 .box-pet img{
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     border-radius: 20%;
 
 }
