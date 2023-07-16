@@ -1,0 +1,74 @@
+*{
+	padding: 0; margin: 0;
+}
+
+img{
+	position: absolute;
+}
+
+#fundo{
+	width: 390px;
+	height: 844px;
+	position: absolute;
+}
+
+#voltar{
+	padding-top: 12%;
+	padding-left: 4%;
+}
+
+#adicione{
+	padding-top: 30%;
+	padding-left: 5%;
+}
+
+#foto{
+	padding-top: 42%;
+	padding-left: 25%;
+}
+
+#dados{
+	padding-top: 71%;
+	padding-left: 5%;
+}
+
+#simbFM{
+	padding-top: 78%;
+	padding-left: 4%;
+}
+
+#simbF, #simbM{
+	position: relative;
+	padding-left: 1%;
+}
+
+#Info1, #Info2, #Info3{
+	position: relative;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+#tamanhos{
+	padding-left: 5%;
+}
+
+#tamanho, #pequeno, #medio, #grande{
+	position: relative;
+	padding-top: 5%;
+}
+
+#saude, #estrelas{
+	position: relative;
+	padding-left: 5%;
+	padding-top: 5%;
+}
+
+#detalhes{
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+#menu{
+	padding-top: 30%;
+	width: 360px;
+}
