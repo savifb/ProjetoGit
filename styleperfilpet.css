@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    position: absolute ;
+    z-index: inherit;
+    top: 40%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+h1 {
+    color: var(--text-1, #03063A);
+    font-family: Comfortaa;
+    font-size: 24.631px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h4 {
+    color: #70717B;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: #000;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 16.053px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.itens-tag1, .itens-tag2, .itens-tag3 {
+   
+    width: 75px;
+    height: 23px;
+    border-radius: 28.501px;
+    color: var(--text-1, #03063A);
+    font-family: Comfortaa;
+    font-size: 15.764px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.itens-tag1 {
+    background: var(--yellow-lght, #FFE9C2);
+    
+}
+
+.itens-tag2 {
+    background: var(--blue-lght, #C2EBFF);
+}
+
+.itens-tag3 {
+    background: var(--green-lght, #E2F5CB);
+    
+}
+
+.tags {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    padding: 5px;
+    gap: 8px;
+}
+
+.geo {
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dog-img {
+    width: 100%;
+    position: static;
+}
+
+#adotar {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #d84c4c;
+}
+
+#adotar-bt {
+    width: 116px;
+    height: 59.232px;
+    border-radius: 28%;
+    background-color: #D84C4C;
+    color: #FFF;
+    font-family: Sail;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.869px; 
+    letter-spacing: 0.079px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    position: absolute;
+    top: 95%;
+    left: 12%;
+    width: 100%;
+}
+
+.home-bt {
+    background-image: url(img/Button\ Shape.svg);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.heart-bt {
+    background-image: url(img/Button\ Shape\(1\).svg);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.chat-bt {
+    background-image: url(img/Button\ Shape\(2\).svg);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.perfil-bt {
+    background-image: url(img/Button\ Shape\(3\).svg);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+ 
+}
+
+.home-bt, .chat-bt, .perfil-bt, .heart-bt {
+    margin-left: 35px;
+}
